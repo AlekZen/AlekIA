@@ -1,0 +1,20 @@
+//  "predeploy": [  "npm --prefix \"$RESOURCE_DIR\" run lint"  ]
+
+
+curl -X POST -H ': ' -H 'Content-Type: application/json' -d '{
+  "responseId":"44b4077b-c7da-4882-a62d-80acffb1fdc8-ab1309b0","queryResult":{
+    "queryText":"Actualiza",
+    "action":"firebase.update",
+    "parameters":{
+    },
+    "allRequiredParamsPresent":true,
+    "fulfillmentMessages":[
+    {"text":{"text":[""]}}],
+    "outputContexts":[{"name":"projects/newagent-nymhvb/agent/sessions/dcad46e3-953a-0b6f-30c9-f6cae61d83bd/contexts/__system_counters__",
+    "parameters":{"no-input":0,"no-match":0}}],
+    "intent":{"name":"projects/newagent-nymhvb/agent/intents/71deba87-95f9-49c2-9f57-e140cc3ff0d1",
+    "displayName":"update"},
+    "intentDetectionConfidence":1,
+    "languageCode":"es"},
+    "originalDetectIntentRequest":{"payload":{}},
+    "session":"projects/newagent-nymhvb/agent/sessions/dcad46e3-953a-0b6f-30c9-f6cae61d83bd"}' https://us-central1-newagent-nymhvb.cloudfunctions.net/dfAlek
